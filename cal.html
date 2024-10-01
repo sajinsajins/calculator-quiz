@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator game</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="input"><br>
+        <input type="text" id="inner" disabled ><br><br><br><br>
+        <div class="back">
+        <button  onclick="cleardisplay()">AC</button>
+        <button onclick="cal('%')">%</button>
+        <button onclick="back()">c</button>
+        <button onclick="cal('/')">/</button>
+        </div><br>
+        <div class="num">
+        <button onclick="cal('7')">7</button>
+        <button onclick="cal('8')">8</button>
+        <button onclick="cal('9')">9</button>
+        <button onclick="cal('*')">*</button>
+        </div><br>
+        <div class="number"> 
+        <button onclick="cal('4')">4</button>
+        <button onclick="cal('5')">5</button>
+        <button onclick="cal('6')">6</button>
+        <button onclick="cal('-')">-</button>
+        </div><br>
+        <div class="ber">
+        <button onclick="cal('1')">1</button>
+        <button onclick="cal('2')">2</button>
+        <button onclick="cal('3')">3</button>
+        <button onclick="cal('+')">+</button>
+        </div><br>
+        <div class="zero">
+        <button onclick="cal('00')">00</button>
+        <button onclick="cal('0')">0</button>
+        <button onclick="cal('.')">.</button>
+        <button onclick="calculate()">=</button>
+        </div><br>
+    </div>
+   <div class="div-div">
+    <a href="http://127.0.0.1:5502/game.html">Cal-Game</a>
+   </div> 
+<script src="cal.js">
+</script>
+</body>
+</html>
